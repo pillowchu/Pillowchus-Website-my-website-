@@ -193,7 +193,7 @@
  p {
  	color: #189bcc;
  	font-size: large;
- 	font-family: Comic Sans MS, Comic Sans, cursive;
+ 	font-family: Comic Sans MS, Comic Sans;
 
  	text-align: center;
  	;
@@ -203,7 +203,7 @@
  p1 {
  	font-size: x-large;
  	color: #189bcc;
- 	font-family: Comic sans Ms, Comic Sans, cursive
+ 	font-family: Comic sans Ms, Comic Sans, 
  }
 
  .image {
