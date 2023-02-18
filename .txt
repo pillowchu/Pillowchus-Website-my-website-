@@ -1,0 +1,20 @@
+ <br><br>
+      <h2>Indego</h2>
+          <p><br><br><br>
+            This is a website made for fun but also to make a somewhat serious website. <br>(If i offend you in any way, I will make a logan paul appolgy
+            video).<br> <br> 
+        </div>
+          <h3>Chicken butt</h3>
+          <p >But seriously I would like to one day become a coder of some sort. <br> If anybody has jobs
+            needed lmk</p>
+
+
+
+<li>
+  <ul>
+    Change background so only soda and make it the color that is in johns dms.<bR>
+    I will force him to show me the shitty thing to move text and things
+    I will also try to make the navbar not suck ass
+
+  </ul>
+</li>

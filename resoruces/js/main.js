@@ -9,10 +9,8 @@ function myFunction() {
 }
 
 const bgs = [
-  "https://cdn.discordapp.com/attachments/912061099753496647/1074072951198076978/image-asset.jpeg",
-  "https://cdn.discordapp.com/attachments/926172814220857395/1048305584497229874/mqdefault.jpg",
-  "https://cdn.discordapp.com/attachments/926172814220857395/1073956263274221670/IMG_4202.png",
-  "https://cdn.discordapp.com/attachments/1069534836836007977/1074047483874902116/IMG_4204.png",
+  "https://cdn.discordapp.com/attachments/926172814220857395/1076248489010413609/IMG_4202.jpg",
+ 
 ];
 
 function rand(min, max) {

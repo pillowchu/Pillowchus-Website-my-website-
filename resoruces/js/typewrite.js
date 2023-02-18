@@ -1,8 +1,8 @@
 // List of sentences
 var _CONTENT = [
-  `when?`,
+  `Pillowchu`,
   "Welcome",
-  "github.com/comecitys",
+  "github.com/pillowchu",
   "https://discord.gg/jZQF4RAdVH",
 ];
 

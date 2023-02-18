@@ -1,8 +1,9 @@
  /* Add a black background color to the top navigation */
  .topnav {
- 	background-color: #189bcc;
+ 	background-color: #012E56;
  	overflow: hidden;
  	size: 100px;
+ 	align-items: center;
  }
 
  /* Style the links inside the navigation bar */
@@ -18,13 +19,13 @@
 
  /* Change the color of links on hover */
  .topnav a:hover {
- 	background-color: #CC4918;
+ 	background-color: #000080;
  	color: white;
  }
 
  /* Add an active class to highlight the current page */
  .topnav a.active {
- 	background-color: slategrey;
+ 	background-color: #842593;
  	color: white;
  }
 
@@ -75,9 +76,9 @@
  	display: inline-block;
  	text-align: center;
  	vertical-align: middle;
- 	color: #189bcc;
+ 	color: #198bcc;
  	letter-spacing: 2px;
-	font-size: x-large;
+ 	font-size: x-large;
  }
 
  #cursor {
@@ -85,7 +86,7 @@
  	vertical-align: middle;
  	width: 3px;
  	height: 50px;
- 	background-color: #CC4918;
+ 	background-color: #189bcc;
  	animation: blink .75s step-end infinite;
  }
 
@@ -97,90 +98,156 @@
  	}
 
  	50% {
- 		background-color: #CC4918;
+ 		background-color: #189bcc;
  	}
  }
+
  @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Asap", sans-serif;
-}
 
-section{
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-section:nth-child(1){
-  color: #189bcc;
-  }
-section:nth-child(2){
-  color: #42455a;
-  background: #189bcc;
-} 
-section:nth-child(3){
-  color: #e0ffff;
-}
-section:nth-child(4){
-  color: #42455a;
-  background: #e0ffff;
-}
-section .container{
-  margin: 100px;
-}
-section h1{
-  font-size: 3rem;
-  margin: 20px;
-}
-section h2{
-  font-size: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #754880
-}
-section .text-container{
-   display: flex;
-}
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	font-family: "Asap", sans-serif;
+ }
 
-section .text-container .text-box h3{
-  font-size: 30px;
-  text-align: left;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
+ section {
+ 	min-height: 100vh;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
 
-@media (max-width: 900px){
-  section h1{
-    font-size: 2rem;
-    text-align: center;
-  }
-  section .text-container{
-    flex-direction: column;
-  }
-}
+ section:nth-child(1) {
+ 	color: #189bcc;
+ }
 
-.reveal{
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: 1s all ease;
-}
+ section:nth-child(2) {
+ 	color: #42455a;
+ 	background: #189bcc;
+ }
 
-.reveal.active{
-  transform: translateY(0);
-  opacity: 1;
-}
+ section:nth-child(3) {
+ 	color: #e0ffff;
+ }
 
-p {
-	color: #189bcc;
-	font-size: large;
-	font-family: Comic Sans MS, Comic Sans, cursive
-}
-p1 {
-	font-size: x-large;
-	color: #189bcc;
-	font-family: Comic sans Ms, Comic Sans, cursive
-}
+ section:nth-child(4) {
+ 	color: #42455a;
+ 	background: #e0ffff;
+ }
+
+ section .container {
+ 	margin: 100px;
+ }
+
+ section h1 {
+ 	font-size: 3rem;
+ 	margin: 20px;
+ }
+
+ h2 {
+ 	position: relative;
+ 	;
+
+ 	top: 350px;
+ 	text-align: center;
+ 	color: #4B0082
+ }
+
+ 
+
+ section .text-container {
+ 	display: flex;
+ }
+
+ h3 {
+ 	font-size: 30px;
+ 	text-transform: uppercase;
+	 color: #4B0082;
+	 bottom: 400px;
+ }
+
+ @media (max-width: 900px) {
+ 	section h1 {
+ 		font-size: 2rem;
+ 		text-align: center;
+ 	}
+
+ 	section .text-container {
+ 		flex-direction: column;
+ 	}
+ }
+
+ .reveal {
+ 	position: relative;
+ 	transform: translateY(150px);
+ 	opacity: 0;
+ 	transition: 1s all ease;
+ }
+
+ .reveal.active {
+ 	transform: translateY(0);
+ 	opacity: 1;
+ }
+
+ p {
+ 	color: #189bcc;
+ 	font-size: large;
+ 	font-family: Comic Sans MS, Comic Sans, cursive;
+
+ 	text-align: center;
+ 	;
+
+ }
+
+ p1 {
+ 	font-size: x-large;
+ 	color: #189bcc;
+ 	font-family: Comic sans Ms, Comic Sans, cursive
+ }
+
+ .image {
+ 	background-image: url(https://cdn.discordapp.com/attachments/926172814220857395/1073956263274221670/IMG_4202.png);
+ 	height: 600px;
+ 	background-size: cover;
+ 	background-blend-mode: lighten;
+
+ }
+
+ .header {
+ 	padding-top: 50px;
+ 	color: white;
+ 	font-size: 20px;
+ 	text-align: center;
+ }
+
+ h1 {
+ 	text-align: center;
+
+
+ }
+
+
+
+ p1 {
+ 	float: right;
+ 	;
+ }
+
+
+ li {
+ 	color: #189bcc
+ }
+
+ .newspaper {
+ 	column-count: 2;
+ 	column-gap: 30px;
+ 	column-width: 1000px;
+ 	color: #189bcc;
+ 	position: relative;
+ 	top: 400px;
+	 font-size: large;
+ 	font-family: Comic Sans MS, Comic Sans, cursive;
+
+ 	text-align: center;
+ }
