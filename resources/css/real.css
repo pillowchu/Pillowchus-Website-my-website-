@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://cdn.discordapp.com/attachments/926172814220857395/1076530941759070358/IMG_4202.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#content {
+  flex: 2 1 0;
+}
+
+#banner>h1 {
+  color: #189bcc;
+  font-size: large;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  height: 3em;
+  background-color: #012E56;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+
+}
+
+
+.typewrite {
+  text-decoration: none;
+  font-size: x-large;
+}
+
+
+.typewrite>.wrap {
+  border-right: 0.15em solid #012E56;
+  animation: blink-caret .75s ease infinite;
+}
+
+#banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20em;
+}
+
+#banner h1 {
+  color: #189bcc;
+  font-size: 2em;
+
+}
+
+#content>p {
+  color: indigo;
+}
+
+@media only screen and (max-width: 768px) {
+  #nav-bar {
+    flex-direction: column;
+  }
+}
+.nav-item {
+ width: 50%;
+ font-size: x-large;
+
+}
+
+
+.nav-item a {
+  text-decoration: none;
+}
+
+
+.sex {
+  color: #189bcc;
+  font-size: large;
+  
+}
+
+p {
+  font-size: large;
+  text-align: center;
+}
