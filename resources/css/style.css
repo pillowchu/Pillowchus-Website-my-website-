@@ -98,7 +98,6 @@ body {
     display: flex;
   }
 }
-
 #banner {
   background-position: center;
   background-repeat: no-repeat;
@@ -118,15 +117,14 @@ body {
 #content {
   max-width: 100px;
   margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  top: 40px;
-  position: relative;
+margin-right: auto;
+text-align: left;
+top: 40px;
+position: relative;
 
 
 
 }
-
 #content>h1 {
   color: indigo;
 }
@@ -144,12 +142,15 @@ body {
 
 .texts h1 {
   color: #189bcc;
-  text-align: right;
-
-
+  text-align: right;;
+  
 }
+
 
 .texts {
   width: 400%;
   text-align: right;
+  text-size-adjust: 80%;
+  margin: 100 90px;
+  
 }
