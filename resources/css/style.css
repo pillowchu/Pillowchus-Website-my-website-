@@ -134,19 +134,26 @@ position: relative;
   margin: 100 90px;
   color: aliceblue;
 }
+
+
 .text div {
-  display: inline-block;
-  flex-grow: 2;/* flex:1; would make them equal width */
+  float: left;
   font-family: gotham light;
   font-size: 23px;
   /* extra ?*/
-
-
-  text-align:center;
-  max-width: 35%;
 }
 /* Add the same for the right one expect move it right*/
 .text h1 {
   color: #189bcc
 }
 
+.texts {
+  float: right;
+}
+
+.texts h1 {
+  color: #189bcc;
+ 
+  text-align: center;;
+  
+}
