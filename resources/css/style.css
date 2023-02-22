@@ -140,22 +140,16 @@ body {
 
 .text h1 {
   color: #189bcc
-  
 }
 
 .texts h1 {
   color: #189bcc;
   text-align: right;
-  
+
 
 }
-.texts  {
-  display: flex;
-  margin: 100 900px;
-  color: aliceblue;
-  flex-direction: column;;
-  text-align: right;;
-  position: relative;;
-  left: 660px;
-}
 
+.texts {
+  width: 400%;
+  text-align: right;
+}
