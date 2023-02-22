@@ -98,6 +98,7 @@ body {
     display: flex;
   }
 }
+
 #banner {
   background-position: center;
   background-repeat: no-repeat;
@@ -117,14 +118,15 @@ body {
 #content {
   max-width: 100px;
   margin-left: auto;
-margin-right: auto;
-text-align: left;
-top: 40px;
-position: relative;
+  margin-right: auto;
+  text-align: left;
+  top: 40px;
+  position: relative;
 
 
 
 }
+
 #content>h1 {
   color: indigo;
 }
@@ -136,24 +138,24 @@ position: relative;
 }
 
 
-.text div {
-  float: left;
-  font-family: gotham light;
-  font-size: 23px;
-  /* extra ?*/
-}
-/* Add the same for the right one expect move it right*/
 .text h1 {
   color: #189bcc
-}
-
-.texts {
-  float: right;
+  
 }
 
 .texts h1 {
   color: #189bcc;
- 
-  text-align: center;;
+  text-align: right;
   
+
 }
+.texts  {
+  display: flex;
+  margin: 100 900px;
+  color: aliceblue;
+  flex-direction: column;;
+  text-align: right;;
+  position: relative;;
+  left: 660px;
+}
+
